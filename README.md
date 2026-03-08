@@ -28,7 +28,7 @@ This repository provides a **prebuilt OpenWrt 22.03 firmware image** for the **S
 ## Limitations
 
 
-The internal DSA switch in the DTS is currently not properly ported into the DTS of the RED50. While it passes traffic, for now it only acts as a "dumb" switch. So features like **802.1Q VLAN tagging** or **802.3ad** cannot be modified from the software side yet.
+The internal DSA switch in the current DTS is currently not properly ported. While it passes traffic, for now it only acts as a "dumb" switch. So features like **802.1Q VLAN tagging** or **802.3ad** cannot be modified from the software side yet.
 
 
 

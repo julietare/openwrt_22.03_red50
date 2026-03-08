@@ -1,0 +1,198 @@
+Package: bridge
+Version: 1.7.1-2
+Depends: libc
+Alternatives: 300:/usr/sbin/brctl:/usr/libexec/brctl-bridge-utils
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:kernel:bridge-utils
+Architecture: powerpc_8540
+Installed-Size: 11569
+Filename: bridge_1.7.1-2_powerpc_8540.ipk
+Size: 12305
+SHA256sum: b0547288ae85c6b2258bd350ba535d544b90916cb80c1bfb24890f4e495e6787
+Description:  Manage ethernet bridging: a way to connect networks together to
+ form a larger network.
+
+Package: cgi-io
+Version: 2022-08-10-901b0f04-21
+Depends: libc, libubox20220515, libubus20220601
+License: GPL-2.0-or-later
+Section: net
+Architecture: powerpc_8540
+Installed-Size: 10431
+Filename: cgi-io_2022-08-10-901b0f04-21_powerpc_8540.ipk
+Size: 11113
+SHA256sum: c2e0f565aaa7129f1d87fcb351d8685bf968ae976d4046f1b41cfedde3ec829a
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: iperf3
+Version: 3.16-1
+Depends: libc, libiperf3
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:es:iperf3
+Architecture: powerpc_8540
+Installed-Size: 2684
+Filename: iperf3_3.16-1_powerpc_8540.ipk
+Size: 3400
+SHA256sum: 416a46d19fea96b246af97013163ccb61140c90ff715e26c3c8938f1ddcd7e6f
+Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
+ performance, allowing the tuning of various parameters and
+ characteristics.
+
+Package: lcdproc-clients
+Version: 0.5.9-6
+Depends: libc
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:lcdproc:lcdproc
+Architecture: powerpc_8540
+Installed-Size: 60595
+Filename: lcdproc-clients_0.5.9-6_powerpc_8540.ipk
+Size: 61037
+SHA256sum: 916e2400e7a69e500de9067a804e8d8dc44df31cfe94671cb7e1aaa7576ed5ac
+Description:  LCDProc is a daemon and clients for displaying system information
+ on various LCD displays
+ 
+ This package contains the clients distributed by the official lcdproc
+ project:
+ * lcdproc -- displays system information
+ * lcdexec -- displays a menu structure to execute commands
+ * lcdvc -- shows the content of the system console
+
+Package: lcdproc-drivers
+Version: 0.5.9-6
+Depends: libc, lcdproc-server, libncurses6, libusb-1.0-0, libusb-compat4, libftdi1, libugpio, serdisplib
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:lcdproc:lcdproc
+Architecture: powerpc_8540
+Installed-Size: 105234
+Filename: lcdproc-drivers_0.5.9-6_powerpc_8540.ipk
+Size: 104399
+SHA256sum: 05c98affa38c15ffe0e71732f6992d51bded5c5f70b23105f115e9b38a27a8da
+Description:  LCDProc is a daemon and clients for displaying system information
+ on various LCD displays
+ 
+ This package contains display drivers with external dependencies:
+ curses futaba glcd hd44780 IOWarrior i2500vfd lis picolcd shuttleVFD ula200
+
+Package: lcdproc-server
+Version: 0.5.9-6
+Depends: libc, libpthread
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:lcdproc:lcdproc
+Architecture: powerpc_8540
+Installed-Size: 272411
+Filename: lcdproc-server_0.5.9-6_powerpc_8540.ipk
+Size: 267329
+SHA256sum: 623b473b9a5a93f05a16e6c04ab59392b510993dc764fd1ea578ca130a750d69
+Description:  LCDProc is a daemon and clients for displaying system information
+ on various LCD displays
+ 
+ This package contains the server and a core set of display drivers
+ without external dependencies:
+ bayrad CFontzPacket CFontz CwLnx ea65 EyeboxOne glk icp_a106 imonlcd
+ imon irtrans joy lb216 lcdm001 lcterm linux_input MD8800 ms6931
+ mtc_s16209x MtxOrb NoritakeVFD Olimex_MOD_LCD1x9 pyramid rawserial
+ serialPOS serialVFD sli SureElec text tyan vlsys_m428 yard2LCD
+
+Package: libftdi1
+Version: 1.5-2
+Depends: libc, libusb-1.0-0
+License: LGPL-2.1-only
+Section: libs
+Architecture: powerpc_8540
+Installed-Size: 23901
+Filename: libftdi1_1.5-2_powerpc_8540.ipk
+Size: 24702
+SHA256sum: 5086622c8bd764f044eac95e299afe4a14d1adef5524dd9fb7e8759f6d3be349
+Description:  libFTDI - FTDI USB driver with bitbang mode
+ libFTDI is an open source library to talk to FTDI chips: FT232BM, FT245BM, FT2232C, FT2232H, FT4232H, FT2232D and FT245R, including the popular bitbang mode. 
+ The library is linked with your program in userspace, no kernel driver required.
+
+Package: libiperf3
+Version: 3.16-1
+Depends: libc, libatomic1
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:es:iperf3
+Architecture: powerpc_8540
+Installed-Size: 79586
+Filename: libiperf3_3.16-1_powerpc_8540.ipk
+Size: 79396
+SHA256sum: 5168537236c2928a5b22fa36b5510ad8c097d3ff3903b20e288ccba7c37b7b67
+Description:  Libiperf is a library providing an API for iperf3 functionality.
+
+Package: libsensors5
+Version: 3.6.0-1
+Depends: libc, sysfsutils
+Provides: libsensors
+License: GPL-2.0-or-later LGPL-2.1-or-later
+Section: libs
+ABIVersion: 5
+CPE-ID: cpe:/a:lm_sensors:lm_sensors
+Architecture: powerpc_8540
+Installed-Size: 22509
+Filename: libsensors5_3.6.0-1_powerpc_8540.ipk
+Size: 23210
+SHA256sum: 485859f62e4f45473c842857e39ac41c900059154976e93b32ce08bedb36a528
+Description:  lm-sensors libraries
+
+Package: libugpio
+Version: 0.0.7-1
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+Architecture: powerpc_8540
+Installed-Size: 6173
+Filename: libugpio_0.0.7-1_powerpc_8540.ipk
+Size: 7011
+SHA256sum: bb884660a2966af29d4c6358f518a0713fbe2a6bde1407ea40abaca8eceb1eb4
+Description:  libugpio is a library to ease the use of linux kernel's sysfs
+ gpio interface from C programs and/or other libraries.
+
+Package: libusb-compat4
+Version: 0.1.7-2
+Depends: libc, libusb-1.0-0
+Provides: libusb-compat
+License: LGPL-2.1-or-later
+Section: libs
+ABIVersion: 4
+Architecture: powerpc_8540
+Installed-Size: 7653
+Filename: libusb-compat4_0.1.7-2_powerpc_8540.ipk
+Size: 8414
+SHA256sum: f0e56878e94a03841c959aae53c655380e5f178abd39f524972456b39df7a648
+Description:  libusb is a C library that gives applications easy access to USB devices on
+ many different operating systems.
+
+Package: lm-sensors
+Version: 3.6.0-1
+Depends: libc, sysfsutils, libsensors5
+License: GPL-2.0-or-later LGPL-2.1-or-later
+Section: utils
+CPE-ID: cpe:/a:lm_sensors:lm_sensors
+Architecture: powerpc_8540
+Installed-Size: 9731
+Filename: lm-sensors_3.6.0-1_powerpc_8540.ipk
+Size: 10366
+SHA256sum: b52a2d29e8f6e2c8caba15f8e5111c797e09ccb611b4f5dc513ae0993249c49c
+Description:  utility to read hardware sensor data
+
+Package: serdisplib
+Version: 2.02-2
+Depends: libc
+License: GPL-2.0-or-later
+Section: libs
+Architecture: powerpc_8540
+Installed-Size: 124891
+Filename: serdisplib_2.02-2_powerpc_8540.ipk
+Size: 124889
+SHA256sum: e792b6adfab3aa50039d868a1d34469c54038649a26a2d43eb8f4ebb42bd86df
+Description:  serdisplib started as a library to drive serial displays with
+ built-in controllers. It can optionally dynamically link with
+ libusb-compat, libgd and libpthread, some features require having
+ those packages installed as well.
+

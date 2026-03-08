@@ -1,0 +1,1 @@
+{"architecture": "powerpc_8540", "packages":{"bridge": "1.7.1-2", "cgi-io": "2022-08-10-901b0f04-21", "iperf3": "3.16-1", "lcdproc-clients": "0.5.9-6", "lcdproc-drivers": "0.5.9-6", "lcdproc-server": "0.5.9-6", "libftdi1": "1.5-2", "libiperf3": "3.16-1", "libsensors5": "3.6.0-1", "libugpio": "0.0.7-1", "libusb-compat4": "0.1.7-2", "lm-sensors": "3.6.0-1", "serdisplib": "2.02-2"}}

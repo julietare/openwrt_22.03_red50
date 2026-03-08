@@ -1,0 +1,273 @@
+Package: liblucihttp-lua
+Version: 2023-03-15-9b5b683f-1
+Depends: libc, liblucihttp0, liblua5.1.5
+License: ISC
+Section: libs
+Architecture: powerpc_8540
+Installed-Size: 4529
+Filename: liblucihttp-lua_2023-03-15-9b5b683f-1_powerpc_8540.ipk
+Size: 5165
+SHA256sum: ba5e764177bb168cc958adcba2e54a0b6732cdd172720ab826122a7ce606bde9
+Description:  Lua binding for the LuCI HTTP utility library
+
+Package: liblucihttp0
+Version: 2023-03-15-9b5b683f-1
+Depends: libc
+Provides: liblucihttp
+License: ISC
+Section: libs
+ABIVersion: 0
+Architecture: powerpc_8540
+Installed-Size: 9008
+Filename: liblucihttp0_2023-03-15-9b5b683f-1_powerpc_8540.ipk
+Size: 9664
+SHA256sum: 3024db73118da0d37a94ab317e23b54447a0fba63a6aca273c28e7cbbfc8b8f2
+Description:  LuCI HTTP utility library
+
+Package: luci-app-firewall
+Version: git-24.067.02332-0337416
+Depends: libc, uci-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 17021
+Filename: luci-app-firewall_git-24.067.02332-0337416_all.ipk
+Size: 17921
+SHA256sum: bdea94f9116c41c2e4d449646fedbb0b35102cefaeee721e0d443c1637bfda72
+Description:  Firewall and Portforwarding application
+
+Package: luci-app-opkg
+Version: git-24.302.38942-7a420e0
+Depends: libc, opkg
+Section: luci
+Architecture: all
+Installed-Size: 9180
+Filename: luci-app-opkg_git-24.302.38942-7a420e0_all.ipk
+Size: 10062
+SHA256sum: b641e8e9f1c95bd49fc7e3adea498d642675100179c66c1d55830572cbe3a5d1
+Description:  OPKG package management application
+
+Package: luci-base
+Version: git-24.208.65546-18f3914
+Depends: libc, lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua, luci-lib-jsonc, liblucihttp-lua, luci-lib-base, rpcd-mod-file, rpcd-mod-luci, cgi-io
+License: MIT
+Section: luci
+Architecture: powerpc_8540
+Installed-Size: 137228
+Filename: luci-base_git-24.208.65546-18f3914_powerpc_8540.ipk
+Size: 138166
+SHA256sum: a8944654f34993d389aa96356a6adc551a9396209f1e0e5aac8c9144db950a07
+Description:  LuCI core libraries
+
+Package: luci-compat
+Version: git-23.093.42303-ef4cd04
+Depends: libc, luci-base
+Section: luci
+Architecture: all
+Installed-Size: 45436
+Filename: luci-compat_git-23.093.42303-ef4cd04_all.ipk
+Size: 46265
+SHA256sum: 5e3844491ec4d41a5e26804cdfc9d2ea8986494af41bc1877066e6ac5d313a61
+Description:  LuCI compatibility libraries
+
+Package: luci-lib-base
+Version: git-20.232.39649-1f6dc29
+Depends: libc, lua, luci-lib-nixio, luci-lib-ip, luci-lib-jsonc, liblucihttp-lua
+Section: luci
+Architecture: all
+Installed-Size: 12497
+Filename: luci-lib-base_git-20.232.39649-1f6dc29_all.ipk
+Size: 13376
+SHA256sum: fe26e9da46c59a1440dbb9d0fca06b50342bec22c581cf920c77e79f972aa910
+Description:  basic libraries for luci
+
+Package: luci-lib-ip
+Version: git-23.311.79310-704a335
+Depends: libc, liblua5.1.5, libnl-tiny1
+License: Apache-2.0
+Section: luci
+Architecture: powerpc_8540
+Installed-Size: 13718
+Filename: luci-lib-ip_git-23.311.79310-704a335_powerpc_8540.ipk
+Size: 14397
+SHA256sum: a79d4a12ae84bcc8df0960b26581e191ad59feddba4c3133ad6de42f66133acb
+Description:  Lua library for IP calculation and routing information
+
+Package: luci-lib-jsonc
+Version: git-23.298.74581-7dfbbca
+Depends: libc, liblua5.1.5, libjson-c5
+Section: luci
+Architecture: powerpc_8540
+Installed-Size: 5865
+Filename: luci-lib-jsonc_git-23.298.74581-7dfbbca_powerpc_8540.ipk
+Size: 6455
+SHA256sum: dd5c2e4fa23e09eccbd37f487b31915516ab3505faa52f0305d4fcdce01d77d2
+Description:  Lua binding for JSON-C
+
+Package: luci-lib-nixio
+Version: git-24.034.55122-b50146c
+Depends: libc, liblua5.1.5
+License: Apache-2.0
+Section: luci
+Architecture: powerpc_8540
+Installed-Size: 37835
+Filename: luci-lib-nixio_git-24.034.55122-b50146c_powerpc_8540.ipk
+Size: 37919
+SHA256sum: f2dcd6d3fe3d923e4fb08d2765bd969c6af1f40890ceb587ea3dd245759638f4
+Description:  NIXIO POSIX library
+
+Package: luci-mod-admin-full
+Version: git-19.253.48496-3f93650
+Depends: libc, luci-base, luci-mod-status, luci-mod-system, luci-mod-network
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 104
+Filename: luci-mod-admin-full_git-19.253.48496-3f93650_all.ipk
+Size: 992
+SHA256sum: 042b3243eb318396c393ec50da0365c9d2bacdf8b1d8c50f200b62d4b99a6316
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-mod-dashboard
+Version: git-23.093.40905-ded06ef
+Depends: libc, luci-base, libiwinfo20210430
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 6699
+Filename: luci-mod-dashboard_git-23.093.40905-ded06ef_all.ipk
+Size: 7613
+SHA256sum: a751e66af8102184559a229f08642d3477e12bd16fc1b96dbe880552862efea2
+Description:  LuCI Dashboard Pages
+
+Package: luci-mod-network
+Version: git-24.207.52566-2374216
+Depends: libc, luci-base, libiwinfo-lua, rpcd-mod-iwinfo
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 54551
+Filename: luci-mod-network_git-24.207.52566-2374216_all.ipk
+Size: 55507
+SHA256sum: c4719c9f608631df1e5025d3c0e85a8e37cd85e3812305f2cdaeca321752521f
+Description:  LuCI Network Administration
+
+Package: luci-mod-status
+Version: git-24.212.61256-910cf4d
+Depends: libc, luci-base, libiwinfo20210430, libiwinfo-lua
+License: Apache-2.0
+Section: luci
+Architecture: powerpc_8540
+Installed-Size: 36998
+Filename: luci-mod-status_git-24.212.61256-910cf4d_powerpc_8540.ipk
+Size: 37759
+SHA256sum: 1a0db982d3343225cfb689a54cccfc41ddbdd75f7b5197ae0659a4247bc8f99c
+Description:  LuCI Status Pages
+
+Package: luci-mod-system
+Version: git-24.067.02339-de5734b
+Depends: libc, luci-base
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 18505
+Filename: luci-mod-system_git-24.067.02339-de5734b_all.ipk
+Size: 19421
+SHA256sum: 8de7fe9f41967d6dfe3431dbf9166e2ecbe98d4483725c7c5d98f3f685eeaadb
+Description:  LuCI Administration - Global System Settings
+
+Package: luci-proto-ipv6
+Version: git-23.355.78888-e047387
+Depends: libc
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2654
+Filename: luci-proto-ipv6_git-23.355.78888-e047387_all.ipk
+Size: 3547
+SHA256sum: 4fe4c3e0ac510c1924abe301f610d19daa66abe5557ac7bf80a37c5addb9d6d0
+Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite
+
+Package: luci-proto-ppp
+Version: git-24.135.45225-e7a8d09
+Depends: libc
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2211
+Filename: luci-proto-ppp_git-24.135.45225-e7a8d09_all.ipk
+Size: 3055
+SHA256sum: 2529dd6473bad8355013c72bd567a1c08f2f4ae53368c489e79f05a66c152a6d
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-proto-vxlan
+Version: git-23.338.79038-3cd9625
+Depends: libc, vxlan
+Section: luci
+Architecture: all
+Installed-Size: 1100
+Filename: luci-proto-vxlan_git-23.338.79038-3cd9625_all.ipk
+Size: 2006
+SHA256sum: b9486318651f5ba554f9c045401a231cbd67a3eb82c9c5df5baa52b50a3c5e92
+Description:  Support for Virtual eXtensible Local Area Network (VXLAN, RFC7348)
+
+Package: luci-ssl
+Version: git-20.244.36115-e10f954
+Depends: libc, luci, libustream-wolfssl20201210, px5g-wolfssl
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 105
+Filename: luci-ssl_git-20.244.36115-e10f954_all.ipk
+Size: 998
+SHA256sum: aa8b12d2eb0c199ea49a30627f6fd0f50a16475469c37833fb15bc0201640b10
+Description:  LuCI with HTTPS support (WolfSSL as SSL backend)
+
+Package: luci-theme-bootstrap
+Version: git-24.208.65546-18f3914
+Depends: libc, luci-base
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 15974
+Filename: luci-theme-bootstrap_git-24.208.65546-18f3914_all.ipk
+Size: 16902
+SHA256sum: 7a72f20660fe4d3bc9785892c16f24d703fde2c56487307e8fad89fbd43b6a42
+Description:  Bootstrap Theme (default)
+
+Package: luci
+Version: git-23.093.42303-d58cd69
+Depends: libc, luci-proto-ipv6, libiwinfo-lua, luci-app-firewall, luci-app-opkg, luci-mod-admin-full, luci-proto-ppp, luci-theme-bootstrap, rpcd-mod-rrdns, uhttpd, uhttpd-mod-ubus
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 105
+Filename: luci_git-23.093.42303-d58cd69_all.ipk
+Size: 1072
+SHA256sum: da8832a787e27f2a9918bf38dcba5ff931e1658bff665b20e9b2344dacf48820
+Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
+
+Package: rpcd-mod-luci
+Version: 20210614
+Depends: libc, rpcd, libubox20220515, libubus20220601, libnl-tiny1
+License: Apache-2.0
+Section: libs
+Architecture: powerpc_8540
+Installed-Size: 16430
+Filename: rpcd-mod-luci_20210614_powerpc_8540.ipk
+Size: 16979
+SHA256sum: db0da0c8da6c83d912d01c0ebaa57723691994e6280c18d455fe4465a2ca29cc
+Description:  Provides LuCI backend ubus RPC operations.
+
+Package: rpcd-mod-rrdns
+Version: 20170710
+Depends: libc, rpcd, libubox20220515, libubus20220601
+License: Apache-2.0
+Section: libs
+Architecture: powerpc_8540
+Installed-Size: 4918
+Filename: rpcd-mod-rrdns_20170710_powerpc_8540.ipk
+Size: 5572
+SHA256sum: a383e5922a67afa0c87c36d04b19c13525fb008ed2876605b375b743f3eb6434
+Description:  Provides rapid mass reverse DNS lookup functionality.
+

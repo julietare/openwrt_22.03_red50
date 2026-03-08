@@ -1,0 +1,1909 @@
+Package: ar3k-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: ar3k-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 961634
+Filename: ar3k-firmware_20230804-1_powerpc_8540.ipk
+Size: 961870
+SHA256sum: ffe757f059ae8a6d29611d27eb7a9307a2f12ad08541c311d1fa316fb44dde09
+Description:  ath3k firmware
+
+Package: ath9k-htc-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: ath9k-htc-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 61891
+Filename: ath9k-htc-firmware_20230804-1_powerpc_8540.ipk
+Size: 62385
+SHA256sum: 88050941a02200d9d139862a8e4b8b4024880872d0fc321b28bd3f3f9c7e864f
+Description:  AR9271/AR7010 firmware
+
+Package: b43legacy-firmware
+Version: 3.130.20.0-1
+Depends: libc
+Source: package/firmware/b43legacy-firmware
+SourceName: b43legacy-firmware
+Section: firmware
+SourceDateEpoch: 1614556761
+Architecture: powerpc_8540
+Installed-Size: 16440
+Filename: b43legacy-firmware_3.130.20.0-1_powerpc_8540.ipk
+Size: 17036
+SHA256sum: a4c6aa7deec8522ead44695ef47a8f290b6ea4647133cbd3860aa5c159dbb024
+Description:  Broadcom bcm43xx b43legacy firmware
+
+Package: bnx2-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: bnx2-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 105196
+Filename: bnx2-firmware_20230804-1_powerpc_8540.ipk
+Size: 105899
+SHA256sum: 0ad9c6d5fc480b2a1a161b9aa8248db51323d18b744ef68ad94549d24b1666ed
+Description:  Broadcom BCM5706/5708/5709/5716 firmware
+
+Package: bnx2x-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: bnx2x-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 2421961
+Filename: bnx2x-firmware_20230804-1_powerpc_8540.ipk
+Size: 2415615
+SHA256sum: 7cc2381f8e75e59300991f480ff3aee046e93adfff93d315ed30168844d1c1de
+Description:  =QLogic 5771x/578xx firmware
+
+Package: brcmfmac-firmware-usb
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: brcmfmac-firmware-usb
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 502996
+Filename: brcmfmac-firmware-usb_20230804-1_powerpc_8540.ipk
+Size: 503677
+SHA256sum: 3549889e756fb585852ffd08a5beec7b5d21a3d1362f7689cf9b7abda70ebe5f
+Description:  Broadcom BCM43xx fullmac USB firmware
+
+Package: busybox
+Version: 1.35.0-5
+Depends: libc, jsonfilter
+Conflicts: busybox-selinux
+Source: package/utils/busybox
+SourceName: busybox
+License: GPL-2.0
+LicenseFiles: LICENSE archival/libarchive/bz/LICENSE
+Section: base
+Require-User: ntp=123:ntp=123
+SourceDateEpoch: 1667684625
+CPE-ID: cpe:/a:busybox:busybox
+Essential: yes
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 268006
+Filename: busybox_1.35.0-5_powerpc_8540.ipk
+Size: 266682
+SHA256sum: 520c2f63fc3dcab0fa79413c6eaef15dc9f010ec72022d77b6fea5e928a7497d
+Description:  The Swiss Army Knife of embedded Linux.
+ It slices, it dices, it makes Julian Fries.
+
+Package: ca-bundle
+Version: 20230311-1
+Depends: libc
+Provides: ca-certs
+Source: package/system/ca-certificates
+SourceName: ca-bundle
+Section: base
+SourceDateEpoch: 1685296312
+Architecture: all
+Installed-Size: 123485
+Filename: ca-bundle_20230311-1_all.ipk
+Size: 124294
+SHA256sum: 91b968c2a356984ef9a672bf56ba1775bb4e90d6a5bcf0f01bb4c286baab6942
+Description:  System CA certificates as a bundle
+
+Package: carl9170-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: carl9170-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 9771
+Filename: carl9170-firmware_20230804-1_powerpc_8540.ipk
+Size: 10524
+SHA256sum: 721497f413cb440041b9a00ac8936e731af9aa95248ad3aecb2ea4e8ae5473a8
+Description:  AR9170 firmware
+
+Package: chat
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc
+Source: package/network/services/ppp
+SourceName: chat
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1616109958
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 10851
+Filename: chat_2.4.9.git-2021-01-04-3_powerpc_8540.ipk
+Size: 11478
+SHA256sum: b21434ca23a898f7b45e435c19a4a14a3ce43067e06907998df87ef66358c351
+Description:  This package contains an utility to establish conversation with other PPP servers
+ (via a modem).
+
+Package: dnsmasq
+Version: 2.86-16
+Depends: libc, libubus20220601
+Source: package/network/services/dnsmasq
+SourceName: dnsmasq
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Require-User: dnsmasq=453:dnsmasq=453
+SourceDateEpoch: 1680466047
+CPE-ID: cpe:/a:thekelleys:dnsmasq
+Architecture: powerpc_8540
+Installed-Size: 151413
+Filename: dnsmasq_2.86-16_powerpc_8540.ipk
+Size: 151348
+SHA256sum: c970f7b7862b40198ea9271a196aa2e66913c1fe459b6da4b1ab47ef5c50deac
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+
+Package: e100-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: e100-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 839
+Filename: e100-firmware_20230804-1_powerpc_8540.ipk
+Size: 1584
+SHA256sum: 6eb8502ad60b2e5ddcdf69cbcc0b065d67626e5d26417f4c3ad721582bb8329a
+Description:  Intel e100
+
+Package: edgeport-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: edgeport-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 18908
+Filename: edgeport-firmware_20230804-1_powerpc_8540.ipk
+Size: 19588
+SHA256sum: a19fe359e8bbd415c65ad96b3a1a6e1e9aef537ece559be597378d1e15f94428
+Description:  USB Inside Out Edgeport Serial Driver firmware
+
+Package: firewall4
+Version: 2022-10-18-7ae5e14b-1
+Depends: ucode (>= 2022-03-22), libc, kmod-nft-core, kmod-nft-fib, kmod-nft-offload, kmod-nft-nat, nftables-json, ucode, ucode-mod-fs, ucode-mod-ubus, ucode-mod-uci
+Provides: uci-firewall
+Source: package/network/config/firewall4
+SourceName: firewall4
+License: ISC
+Section: net
+SourceDateEpoch: 1666085181
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: powerpc_8540
+Installed-Size: 27863
+Filename: firewall4_2022-10-18-7ae5e14b-1_powerpc_8540.ipk
+Size: 28820
+SHA256sum: 161bf4c1f8e1807a41efa3e6e99ca00aa7800c64fccf73f19c6810588c341b05
+Description:  This package provides an nftables-based implementation of the UCI firewall
+ sharing the same configuration format.
+
+Package: getrandom
+Version: 2021-08-03-205defb5-2
+Depends: libc
+Source: package/system/ubox
+SourceName: getrandom
+License: GPL-2.0
+Section: base
+SourceDateEpoch: 1643641405
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: powerpc_8540
+Installed-Size: 1914
+Filename: getrandom_2021-08-03-205defb5-2_powerpc_8540.ipk
+Size: 2572
+SHA256sum: f6febb13264683bfd032548903ebce99a292faf4e4ec5c6b1df8f9f0642ec2ed
+Description:  OpenWrt getrandom system helper
+
+Package: hostapd-common
+Version: 2022-01-16-cff80b4f-21.3
+Depends: libc
+Source: package/network/services/hostapd
+SourceName: hostapd-common
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1720470431
+CPE-ID: cpe:/a:w1.fi:hostapd
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 12388
+Filename: hostapd-common_2022-01-16-cff80b4f-21.3_powerpc_8540.ipk
+Size: 13182
+SHA256sum: 3b988c99ca3a8a65d809a833c9f66ea04b1416c1799934599e1951c5292a0cfe
+Description:  hostapd/wpa_supplicant common support files
+
+Package: iw
+Version: 5.16-1
+Depends: libc, libnl-tiny1
+Source: package/network/utils/iw
+SourceName: iw
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1695828554
+CPE-ID: cpe:/a:kernel:iw
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 51214
+Filename: iw_5.16-1_powerpc_8540.ipk
+Size: 51988
+SHA256sum: b716398311e84a97f484cd7cc8d683d528ea3d3e8b4fa835a7b9f66e13c4adef
+Description:  cfg80211 interface configuration utility
+
+Package: iwinfo
+Version: 2022-12-15-8d158096-1
+Depends: libc, libiwinfo20210430
+Source: package/network/utils/iwinfo
+SourceName: iwinfo
+License: GPL-2.0
+Section: utils
+SourceDateEpoch: 1671460375
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: powerpc_8540
+Installed-Size: 7315
+Filename: iwinfo_2022-12-15-8d158096-1_powerpc_8540.ipk
+Size: 8043
+SHA256sum: 4c92543f6e3217917d055e48c986f1c52af02fc0b305940574b37ef3ebbae721
+Description:  Command line frontend for the wireless information library.
+
+Package: iwl3945-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: iwl3945-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 63584
+Filename: iwl3945-firmware_20230804-1_powerpc_8540.ipk
+Size: 64229
+SHA256sum: bb973490af4fb71e2648a75186ab7a1b07f782b26c315b0134bc13f8b0ebb180
+Description:  Intel IWL3945 firmware
+
+Package: iwl4965-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: iwl4965-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 78629
+Filename: iwl4965-firmware_20230804-1_powerpc_8540.ipk
+Size: 79223
+SHA256sum: b75041673f8dd18e2bf03a258eb84ef6384c39870d03bb9006cba0aa3789268d
+Description:  Intel IWL4965 firmware
+
+Package: jansson4
+Version: 2.13.1-2
+Depends: libc
+Provides: jansson
+Source: package/libs/jansson
+SourceName: jansson
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1599417018
+ABIVersion: 4
+Architecture: powerpc_8540
+Installed-Size: 25218
+Filename: jansson4_2.13.1-2_powerpc_8540.ipk
+Size: 25891
+SHA256sum: c4034577d8202fb22c482b4c185e65c01d6facc2bee972f9a609d810d39a93d1
+Description:  Jansson is a C library for encoding, decoding and manipulating JSON data
+
+Package: jshn
+Version: 2022-05-15-d2223ef9-1
+Depends: libc, libjson-c5, libubox20220515, libblobmsg-json20220515
+Source: package/libs/libubox
+SourceName: jshn
+License: ISC
+Section: utils
+SourceDateEpoch: 1654630618
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 7485
+Filename: jshn_2022-05-15-d2223ef9-1_powerpc_8540.ipk
+Size: 8157
+SHA256sum: 08780701502f407a68c58186d0104ce94e106c30e6e4d58d7b9b8dc0d35e6b0f
+Description:  Library for parsing and generating JSON from shell scripts
+
+Package: jsonfilter
+Version: 2024-01-23-594cfa86-1
+Depends: libc, libubox20220515, libjson-c5
+Source: package/utils/jsonfilter
+SourceName: jsonfilter
+License: ISC
+Section: base
+SourceDateEpoch: 1705997403
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: powerpc_8540
+Installed-Size: 11350
+Filename: jsonfilter_2024-01-23-594cfa86-1_powerpc_8540.ipk
+Size: 12023
+SHA256sum: 44658b416f5a094a51651f9a0f4cab9aaaf660884765053a0a2affdcc1dede40
+Description:  OpenWrt JSON filter utility
+
+Package: libblobmsg-json20220515
+Version: 2022-05-15-d2223ef9-1
+Depends: libc, libjson-c5, libubox20220515
+Provides: libblobmsg-json
+Source: package/libs/libubox
+SourceName: libblobmsg-json
+License: ISC
+Section: libs
+SourceDateEpoch: 1654630618
+ABIVersion: 20220515
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 4798
+Filename: libblobmsg-json20220515_2022-05-15-d2223ef9-1_powerpc_8540.ipk
+Size: 5414
+SHA256sum: 1b124b16a9a895aec0866d774d048f402525ce2e3f1037c4f97d6a30530b4a88
+Description:  blobmsg <-> json conversion library
+
+Package: libbpf20220308
+Version: 2022-03-08-04c465fd-1
+Depends: libc, libelf1
+Provides: libbpf
+Source: package/network/utils/bpftools
+SourceName: libbpf
+License: LGPL-2.1 OR BSD-2-Clause
+Section: libs
+SourceDateEpoch: 1647692955
+ABIVersion: 20220308
+Maintainer: Tony Ambardar <itugrok@yahoo.com>
+Architecture: powerpc_8540
+Installed-Size: 153920
+Filename: libbpf20220308_2022-03-08-04c465fd-1_powerpc_8540.ipk
+Size: 153357
+SHA256sum: 49206b2b1a393c9b13656a71913e94fb6a29fa7997e811daf679943b415fec24
+Description:  libbpf is a library for loading eBPF programs and reading and manipulating eBPF objects from user-space.
+
+Package: libelf1
+Version: 0.186-1
+Depends: libc, zlib
+Provides: libelf, libelf11
+Source: package/libs/elfutils
+SourceName: libelf
+License: GPL-3.0-or-later
+LicenseFiles: COPYING COPYING-GPLV2 COPYING-LGPLV3
+Section: libs
+SourceDateEpoch: 1641617450
+ABIVersion: 1
+CPE-ID: cpe:/a:elfutils_project:elfutils
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: powerpc_8540
+Installed-Size: 47656
+Filename: libelf1_0.186-1_powerpc_8540.ipk
+Size: 48465
+SHA256sum: a5a9c92676d24fdb187cb9589b4c5a7d296e07cc05c63f2f83166a04156f7549
+Description:  ELF manipulation libraries (libelf)
+
+Package: libertas-sdio-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: libertas-sdio-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 348571
+Filename: libertas-sdio-firmware_20230804-1_powerpc_8540.ipk
+Size: 349493
+SHA256sum: d87a6191b8f9fc2d52742ff5c38af7bcd9b99de9f6050fbaa3ec0b19b4ed6337
+Description:  Marvell 8385/8686/8688 SDIO firmware
+
+Package: libertas-spi-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: libertas-spi-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 92258
+Filename: libertas-spi-firmware_20230804-1_powerpc_8540.ipk
+Size: 93099
+SHA256sum: 53c154b8ef441c950913d5ffed9502755ab65d5613a3c4d2dc691d08b00509dd
+Description:  Marvell 8686 SPI firmware
+
+Package: libertas-usb-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: libertas-usb-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 216586
+Filename: libertas-usb-firmware_20230804-1_powerpc_8540.ipk
+Size: 217347
+SHA256sum: a6b3b35caeedb8c594ba1756be617205511d8422aa77816d74b28370bd692809
+Description:  Marvell 8388/8682 USB firmware
+
+Package: libiwinfo-data
+Version: 2022-12-15-8d158096-1
+Depends: libc
+Source: package/network/utils/iwinfo
+SourceName: libiwinfo-data
+License: GPL-2.0
+Section: opt
+SourceDateEpoch: 1671460375
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: powerpc_8540
+Installed-Size: 2181
+Filename: libiwinfo-data_2022-12-15-8d158096-1_powerpc_8540.ipk
+Size: 2942
+SHA256sum: 231174532a1cc8c51094380a956f1208cc6de64cdd9c600e7d0f73f878f7632e
+Description:  libiwinfo Lua binding
+
+Package: libiwinfo-lua
+Version: 2022-12-15-8d158096-1
+Depends: libc, libiwinfo20210430, liblua5.1.5
+Source: package/network/utils/iwinfo
+SourceName: libiwinfo-lua
+License: GPL-2.0
+Section: lang
+SourceDateEpoch: 1671460375
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: powerpc_8540
+Installed-Size: 7539
+Filename: libiwinfo-lua_2022-12-15-8d158096-1_powerpc_8540.ipk
+Size: 8263
+SHA256sum: 152ea69d604ee26f490b46b6a0de3bdbff5edd8598614ec0177a12f929739ac6
+Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
+ backends.
+
+Package: libiwinfo20210430
+Version: 2022-12-15-8d158096-1
+Depends: libc, libnl-tiny1, libuci20130104, libubus20220601, libiwinfo-data
+Provides: libiwinfo
+Source: package/network/utils/iwinfo
+SourceName: libiwinfo
+License: GPL-2.0
+Section: libs
+SourceDateEpoch: 1671460375
+ABIVersion: 20210430
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: powerpc_8540
+Installed-Size: 30301
+Filename: libiwinfo20210430_2022-12-15-8d158096-1_powerpc_8540.ipk
+Size: 30835
+SHA256sum: cb21e3fdfb6bbdf1de7faead82d7615a8046123e6da2623478d4e8f79998fcf8
+Description:  Wireless information library with simplified API for nl80211
+ and wext driver interfaces.
+
+Package: libjson-c5
+Version: 0.15-2
+Depends: libc
+Provides: libjson-c
+Source: package/libs/libjson-c
+SourceName: libjson-c
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1637438904
+ABIVersion: 5
+CPE-ID: cpe:/a:json-c_project:json-c
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 33550
+Filename: libjson-c5_0.15-2_powerpc_8540.ipk
+Size: 34307
+SHA256sum: eb3cd6b588fabba351792255240aa6e717a32030f7c933f47567b7c55ceace9f
+Description:  This package contains a library for javascript object notation backends.
+
+Package: libjson-script20220515
+Version: 2022-05-15-d2223ef9-1
+Depends: libc, libubox20220515
+Provides: libjson-script
+Source: package/libs/libubox
+SourceName: libjson-script
+License: ISC
+Section: utils
+SourceDateEpoch: 1654630618
+ABIVersion: 20220515
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 6337
+Filename: libjson-script20220515_2022-05-15-d2223ef9-1_powerpc_8540.ipk
+Size: 7093
+SHA256sum: 492f19a28e083fd6ca5354431cfe8b60e20d255619975be2f513d647b14071ff
+Description:  Minimalistic JSON based scripting engine
+
+Package: liblua5.1.5
+Version: 5.1.5-11
+Depends: libc
+Provides: liblua
+Source: package/utils/lua
+SourceName: liblua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: libs
+SourceDateEpoch: 1720470431
+ABIVersion: 5.1.5
+CPE-ID: cpe:/a:lua:lua
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: powerpc_8540
+Installed-Size: 87760
+Filename: liblua5.1.5_5.1.5-11_powerpc_8540.ipk
+Size: 87839
+SHA256sum: f142ff2a4b08b062dacddc53e8b5151a19912b03f03324d13025b1a3c26a91e0
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: libmnl0
+Version: 1.0.5-1
+Depends: libc
+Provides: libmnl
+Source: package/libs/libmnl
+SourceName: libmnl
+License: LGPL-2.1+
+Section: libs
+SourceDateEpoch: 1659705897
+ABIVersion: 0
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: powerpc_8540
+Installed-Size: 8490
+Filename: libmnl0_1.0.5-1_powerpc_8540.ipk
+Size: 9651
+SHA256sum: d7375fdb6b3d7e6d77c1cebe38c56fdc883a46214388fab8858cec4be0702c75
+Description:  libmnl is a minimalistic user-space library oriented to Netlink developers.
+ There are a lot of common tasks in parsing, validating, constructing of
+ both the Netlink header and TLVs that are repetitive and easy to get wrong.
+ This library aims to provide simple helpers that allows you to re-use code
+ and to avoid re-inventing the wheel. The main features of this library are:
+ .
+ * Small: the shared library requires around 30KB for an x86-based computer.
+ .
+ * Simple: this library avoids complexity and elaborated abstractions that
+ tend to hide Netlink details.
+ .
+ * Easy to use: the library simplifies the work for Netlink-wise developers.
+ It provides functions to make socket handling, message building, validating,
+ parsing and sequence tracking, easier.
+ .
+ * Easy to re-use: you can use the library to build your own abstraction layer
+ on top of this library.
+ .
+ * Decoupling: the interdependency of the main bricks that compose the library
+ is reduced, i.e. the library provides many helpers, but the programmer is not
+ forced to use them.
+
+Package: libncurses6
+Version: 6.3-2
+Depends: libc, terminfo
+Provides: libncursesw, libncurses, libncursesw6
+Source: package/libs/ncurses
+SourceName: libncurses
+License: MIT
+LicenseFiles: README
+Section: libs
+SourceDateEpoch: 1666527663
+ABIVersion: 6
+CPE-ID: cpe:/a:gnu:ncurses
+Architecture: powerpc_8540
+Installed-Size: 209247
+Filename: libncurses6_6.3-2_powerpc_8540.ipk
+Size: 204366
+SHA256sum: 63f0e7e62a70f2eac1448e3fe99c8ae6f55e66157208457e20dbb86a845ee7e9
+Description:  Terminal handling library (Unicode)
+
+Package: libnftnl11
+Version: 1.2.1-2
+Depends: libc, libmnl0
+Provides: libnftnl
+Source: package/libs/libnftnl
+SourceName: libnftnl
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1666527663
+ABIVersion: 11
+CPE-ID: cpe:/a:netfilter:libnftnl
+Maintainer: Steven Barth <steven@midlink.org>
+Architecture: powerpc_8540
+Installed-Size: 68763
+Filename: libnftnl11_1.2.1-2_powerpc_8540.ipk
+Size: 69089
+SHA256sum: 66ca92057e6c4aff1e8a267609dc28bc4d91a494d4e9c11dfd6fe47c7fb66c78
+Description:  libnftnl is a userspace library providing a low-level netlink
+ programming interface (API) to the in-kernel nf_tables subsystem.
+
+Package: libnl-tiny1
+Version: 2021-11-21-8e0555fb-1
+Depends: libc
+Provides: libnl-tiny
+Source: package/libs/libnl-tiny
+SourceName: libnl-tiny
+License: LGPL-2.1
+Section: libs
+SourceDateEpoch: 1639519150
+ABIVersion: 1
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 18297
+Filename: libnl-tiny1_2021-11-21-8e0555fb-1_powerpc_8540.ipk
+Size: 19085
+SHA256sum: 8793e7ed16cfa2d0187179830e68c5e79b6e0495bd1ba0330efa00cf79450d3f
+Description:  This package contains a stripped down version of libnl
+
+Package: libsysfs2
+Version: 2.1.0-3
+Depends: libc
+Provides: libsysfs
+Source: package/libs/sysfsutils
+SourceName: libsysfs
+License: LGPL-2.1
+LicenseFiles: COPYING cmd/GPL lib/LGPL
+Section: libs
+SourceDateEpoch: 1695846789
+ABIVersion: 2
+CPE-ID: cpe:/a:sysfsutils_project:sysfsutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: powerpc_8540
+Installed-Size: 16040
+Filename: libsysfs2_2.1.0-3_powerpc_8540.ipk
+Size: 16752
+SHA256sum: ccd2766adb9e4c4d9f7f465a2aa1838674fa1531ab680c776a59580f79449fb5
+Description:  The library's purpose is to provide a consistant and stable interface for
+ querying system device information exposed through sysfs.
+
+Package: libubox20220515
+Version: 2022-05-15-d2223ef9-1
+Depends: libc
+Provides: libubox
+Source: package/libs/libubox
+SourceName: libubox
+License: ISC
+Section: libs
+SourceDateEpoch: 1654630618
+ABIVersion: 20220515
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 26326
+Filename: libubox20220515_2022-05-15-d2223ef9-1_powerpc_8540.ipk
+Size: 27013
+SHA256sum: d34e9a6e1b4ff9e0badaa5e849ba1d63b053cbda73b568938f68d5cdb27d18ef
+Description:  Basic utility library
+
+Package: libubus-lua
+Version: 2022-06-01-2bebf93c-1
+Depends: libc, libubus20220601, liblua5.1.5
+Source: package/system/ubus
+SourceName: libubus-lua
+License: LGPL-2.1
+Section: libs
+SourceDateEpoch: 1654425492
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 8442
+Filename: libubus-lua_2022-06-01-2bebf93c-1_powerpc_8540.ipk
+Size: 9012
+SHA256sum: f59ae1459b8f66d7af5ee03004e9482d90fe58489875161556cf4140c5b450b9
+Description:  Lua binding for the OpenWrt RPC client
+
+Package: libubus20220601
+Version: 2022-06-01-2bebf93c-1
+Depends: libc, libubox20220515
+Provides: libubus
+Source: package/system/ubus
+SourceName: libubus
+License: LGPL-2.1
+Section: libs
+SourceDateEpoch: 1654425492
+ABIVersion: 20220601
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 12958
+Filename: libubus20220601_2022-06-01-2bebf93c-1_powerpc_8540.ipk
+Size: 13665
+SHA256sum: e246cdd21bf7f7632ff535809a74ef10e790e8a8eb731dd42b70ffd0ed6aabb9
+Description:  OpenWrt RPC client library
+
+Package: libuci20130104
+Version: 2021-10-22-f84f49f0-6
+Depends: libc, libubox20220515
+Provides: libuci
+Source: package/system/uci
+SourceName: libuci
+License: LGPL-2.1
+Section: libs
+SourceDateEpoch: 1634939511
+ABIVersion: 20130104
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 19762
+Filename: libuci20130104_2021-10-22-f84f49f0-6_powerpc_8540.ipk
+Size: 20522
+SHA256sum: 0aaddc2e72aa3fdb7e3049d1e7b368749327a48da25c7c5eb6b01038e6a0bc57
+Description:  C library for the Unified Configuration Interface (UCI)
+
+Package: libuclient20201210
+Version: 2023-04-13-007d9454-1
+Depends: libc, libubox20220515
+Provides: libuclient
+Source: package/libs/uclient
+SourceName: libuclient
+License: ISC
+Section: libs
+SourceDateEpoch: 1681412046
+ABIVersion: 20201210
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 12666
+Filename: libuclient20201210_2023-04-13-007d9454-1_powerpc_8540.ipk
+Size: 13266
+SHA256sum: f73fca6f2523b6697dc1bf3d16eb7d1b797d25afa58a93ba41560a465a8712c4
+Description:  HTTP/1.1 client library
+
+Package: libucode20220812
+Version: 2022-12-02-46d93c9c-1
+Depends: libc, libjson-c5
+Provides: libucode
+Source: package/utils/ucode
+SourceName: libucode
+License: ISC
+Section: utils
+SourceDateEpoch: 1720470431
+ABIVersion: 20220812
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: powerpc_8540
+Installed-Size: 85625
+Filename: libucode20220812_2022-12-02-46d93c9c-1_powerpc_8540.ipk
+Size: 85577
+SHA256sum: dfd8c28c6253abb4960f72ecc08e65331b790999cddcd9e5068a7edd86bb0f17
+Description:  The libucode package provides the shared runtime library for the ucode interpreter.
+
+Package: libusb-1.0-0
+Version: 1.0.24-5
+Depends: libc, libpthread, librt
+Provides: libusb-1.0
+Source: package/libs/libusb
+SourceName: libusb-1.0
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1656108321
+ABIVersion: -0
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 36747
+Filename: libusb-1.0-0_1.0.24-5_powerpc_8540.ipk
+Size: 37435
+SHA256sum: a611a85533febccccb54222ffc0ae1a0db1f7fe812e406ad93d6fd843a049e87
+Description:  libusb is a C library that gives applications easy access to USB devices on
+ many different operating systems.
+
+Package: libustream-wolfssl20201210
+Version: 2022-12-08-9217ab46-2
+Depends: libc, libubox20220515, libwolfssl5.7.2.ee39414e
+Conflicts: libustream-openssl
+Provides: libustream-wolfssl
+Source: package/libs/ustream-ssl
+SourceName: libustream-wolfssl
+License: ISC
+Section: libs
+SourceDateEpoch: 1672605761
+ABIVersion: 20201210
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 5432
+Filename: libustream-wolfssl20201210_2022-12-08-9217ab46-2_powerpc_8540.ipk
+Size: 6060
+SHA256sum: a395db7734dc1977a40a82f1cf2378919f2e3518df81817b26187a1bbec9cc31
+Description:  ustream SSL Library (wolfssl)
+
+Package: libwolfssl5.7.2.ee39414e
+Version: 5.7.2-stable-1
+Depends: libc
+Provides: libcyassl, libwolfssl, libcyassl5.7.2.ee39414e
+Source: package/libs/wolfssl
+SourceName: libwolfssl
+License: GPL-2.0-or-later
+LicenseFiles: LICENSING COPYING
+Section: libs
+SourceDateEpoch: 1721082354
+ABIVersion: 5.7.2.ee39414e
+CPE-ID: cpe:/a:wolfssl:wolfssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: powerpc_8540
+Installed-Size: 641754
+Filename: libwolfssl5.7.2.ee39414e_5.7.2-stable-1_powerpc_8540.ipk
+Size: 633057
+SHA256sum: 8a66095b1257d18cbd6777bb92963a6411ebac670cf6d35821e88d1af6ed8721
+Description:  wolfSSL (formerly CyaSSL) is an SSL library optimized for small
+ footprint, both on disk and for memory use.
+
+Package: logd
+Version: 2021-08-03-205defb5-2
+Depends: libc, libubox20220515, libubus20220601, libblobmsg-json20220515
+Source: package/system/ubox
+SourceName: logd
+License: GPL-2.0
+Section: base
+Require-User: logd=514:logd=514
+SourceDateEpoch: 1643641405
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: powerpc_8540
+Installed-Size: 13539
+Filename: logd_2021-08-03-205defb5-2_powerpc_8540.ipk
+Size: 14062
+SHA256sum: 865bbd0fb5fb31258baf743e3a30beadb7a4af52b16cdd2e0d85d3675a8c85b9
+Description:  OpenWrt system log implementation
+
+Package: lua
+Version: 5.1.5-11
+Depends: libc, liblua5.1.5
+Source: package/utils/lua
+SourceName: lua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+SourceDateEpoch: 1720470431
+CPE-ID: cpe:/a:lua:lua
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: powerpc_8540
+Installed-Size: 5602
+Filename: lua_5.1.5-11_powerpc_8540.ipk
+Size: 6323
+SHA256sum: 0a57255142a0edbbff3f549ceaba61e7c556929f535d69019ba674e9e96e54a4
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language interpreter.
+
+Package: mt7601u-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: mt7601u-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 26447
+Filename: mt7601u-firmware_20230804-1_powerpc_8540.ipk
+Size: 27172
+SHA256sum: 73333d463f3bcf450565edc0244ca2d4d5f7c3aec3669d3c52c5009f8e08db62
+Description:  MediaTek MT7601U firmware
+
+Package: mwifiex-pcie-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: mwifiex-pcie-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 514912
+Filename: mwifiex-pcie-firmware_20230804-1_powerpc_8540.ipk
+Size: 515630
+SHA256sum: eec70f7a9f32dd3845accf3dbfbe91adf9940a49b138d03d15817c4a07d0157c
+Description:  Marvell 8897 firmware
+
+Package: mwifiex-sdio-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: mwifiex-sdio-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 876729
+Filename: mwifiex-sdio-firmware_20230804-1_powerpc_8540.ipk
+Size: 877090
+SHA256sum: f05755d484701b95be5f1915b5f69ca9b7ed7b09a1fc86abc87fb7a6da886364
+Description:  Marvell 8887/8997 firmware
+
+Package: mwl8k-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: mwl8k-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 192386
+Filename: mwl8k-firmware_20230804-1_powerpc_8540.ipk
+Size: 193252
+SHA256sum: b0998e8aa8488fe0534a206f2ef874f4d1d3244ac3fd3463dc58bcf9d036c4b2
+Description:  Marvell 8366/8687 firmware
+
+Package: netifd
+Version: 2022-08-25-76d2d41b-1
+Depends: libc, libuci20130104, libnl-tiny1, libubus20220601, ubus, ubusd, jshn, libubox20220515
+Source: package/network/config/netifd
+SourceName: netifd
+License: GPL-2.0
+Section: base
+SourceDateEpoch: 1680466047
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 110696
+Filename: netifd_2022-08-25-76d2d41b-1_powerpc_8540.ipk
+Size: 110807
+SHA256sum: 71b6f0a782824ea74707781316c2738f6b85a87f193891d7f2505bb09c971994
+Description:  OpenWrt Network Interface Configuration Daemon
+
+Package: nftables-json
+Version: 1.0.2-2.1
+Depends: libc, kmod-nft-core, libnftnl11, jansson4
+Provides: nftables
+Source: package/network/utils/nftables
+SourceName: nftables-json
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1661416246
+Architecture: powerpc_8540
+Installed-Size: 306426
+Filename: nftables-json_1.0.2-2.1_powerpc_8540.ipk
+Size: 302434
+SHA256sum: 6ff8a3846a9c0287e2345a5910b82f6dbc3b5fc8c256c299f3c8dcfa1a896f4f
+Description:  nftables userspace utility with JSON support
+
+Package: odhcp6c
+Version: 2022-08-05-7d21e8d8-18
+Depends: libc, libubox20220515
+Source: package/network/ipv6/odhcp6c
+SourceName: odhcp6c
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1660774595
+Maintainer: Hans Dedecker <dedeckeh@gmail.com>
+Architecture: powerpc_8540
+Installed-Size: 30814
+Filename: odhcp6c_2022-08-05-7d21e8d8-18_powerpc_8540.ipk
+Size: 31508
+SHA256sum: 74dcc7aaf8a4c6c315c4f31324e9c70f6e2026d817ae5de4cfc920ef6e5bd5a0
+Description:  Embedded DHCPv6-client for OpenWrt
+
+Package: odhcpd-ipv6only
+Version: 2023-01-02-4a673e1c-2
+Depends: libc, libubox20220515, libuci20130104, libubus20220601, libnl-tiny1
+Source: package/network/services/odhcpd
+SourceName: odhcpd-ipv6only
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1672663919
+Maintainer: Hans Dedecker <dedeckeh@gmail.com>
+Architecture: powerpc_8540
+Installed-Size: 49303
+Filename: odhcpd-ipv6only_2023-01-02-4a673e1c-2_powerpc_8540.ipk
+Size: 49785
+SHA256sum: 0f5312eca4a86a0f16125ea8e36afd2c8c01ab29c805e0ab806bbb6bc12f1393
+Description:  odhcpd is a daemon for serving and relaying IP management protocols to
+ configure clients and downstream routers. It tries to follow the RFC 6204
+ requirements for IPv6 home routers.
+ 
+ This is a variant providing server services for RA, stateless and stateful
+ DHCPv6,  prefix delegation and can be used to relay RA, DHCPv6 and NDP between
+ routed (non-bridged) interfaces in case no delegated prefixes are available.
+
+Package: openwrt-keyring
+Version: 2022-03-25-62471e69-3
+Depends: libc
+Provides: lede-keyring
+Source: package/system/openwrt-keyring
+SourceName: openwrt-keyring
+License: GPL-2.0
+Section: base
+SourceDateEpoch: 1648374511
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: powerpc_8540
+Installed-Size: 310
+Filename: openwrt-keyring_2022-03-25-62471e69-3_powerpc_8540.ipk
+Size: 1099
+SHA256sum: 5a9a289c12eca3d490bd73aa3b11cf45abc6c37f20cf94ee3440357d27e9c27b
+Description:  The keyring of with the developer using and gpg public keys.
+
+Package: opkg
+Version: 2022-02-24-d038e5b6-1
+Depends: libc, uclient-fetch, libpthread, libubox20220515
+Source: package/system/opkg
+SourceName: opkg
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: base
+SourceDateEpoch: 1658063711
+Essential: yes
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: powerpc_8540
+Installed-Size: 80060
+Filename: opkg_2022-02-24-d038e5b6-1_powerpc_8540.ipk
+Size: 80777
+SHA256sum: cac9b1152ef13af800ea1ec0da1b2f611a022e9f87810de43bb393131ca9047c
+Description:  Lightweight package management system
+ opkg is the opkg Package Management System, for handling
+ installation and removal of packages on a system. It can
+ recursively follow dependencies and download all packages
+ necessary to install a particular package.
+ 
+ opkg knows how to install both .ipk and .deb packages.
+
+Package: p54-pci-firmware
+Version: 1
+Depends: libc
+Source: package/firmware/prism54-firmware
+SourceName: p54-pci-firmware
+Section: firmware
+SourceDateEpoch: 1481924362
+Architecture: powerpc_8540
+Installed-Size: 23511
+Filename: p54-pci-firmware_1_powerpc_8540.ipk
+Size: 24181
+SHA256sum: 72ed8f145e3458963faa0c2e01c5bf44317821b85e6a12a02cdee86c8534aff1
+Description:  p54-pci firmware
+
+Package: p54-usb-firmware
+Version: 1
+Depends: libc
+Source: package/firmware/prism54-firmware
+SourceName: p54-usb-firmware
+Section: firmware
+SourceDateEpoch: 1481924362
+Architecture: powerpc_8540
+Installed-Size: 23804
+Filename: p54-usb-firmware_1_powerpc_8540.ipk
+Size: 24475
+SHA256sum: 8ccfe85603f67c6d8ab05bff98f0e182b83272f5419859c05f74133fb72d1ffd
+Description:  p54-usb firmware
+
+Package: ppp-mod-pppoe
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc, kmod-pppoe
+Source: package/network/services/ppp
+SourceName: ppp-mod-pppoe
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1616109958
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 12362
+Filename: ppp-mod-pppoe_2.4.9.git-2021-01-04-3_powerpc_8540.ipk
+Size: 13077
+SHA256sum: 0b933204bb07aed83014b0523a671ee98435555c566d58d71cef72c676e919ae
+Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
+
+Package: ppp
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc, kmod-ppp
+Source: package/network/services/ppp
+SourceName: ppp
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1616109958
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 143446
+Filename: ppp_2.4.9.git-2021-01-04-3_powerpc_8540.ipk
+Size: 143353
+SHA256sum: f8dac23efe2cd35b5c6684500ef5e9c3f2c554e63d989dec6e971df861e3ddff
+Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
+
+Package: prism54-firmware
+Version: 1
+Depends: libc
+Source: package/firmware/prism54-firmware
+SourceName: prism54-firmware
+Section: firmware
+SourceDateEpoch: 1481924362
+Architecture: powerpc_8540
+Installed-Size: 80227
+Filename: prism54-firmware_1_powerpc_8540.ipk
+Size: 81048
+SHA256sum: 55f3f3aad4ddbf3ead303a7ce5ba16319649dd7ccfd6bbaa28f790dd753980f4
+Description:  prism54 firmware
+
+Package: procd-seccomp
+Version: 2022-06-01-7a009685-3
+Depends: libc, libubox20220515, libblobmsg-json20220515
+Source: package/system/procd
+SourceName: procd-seccomp
+License: GPL-2.0
+Section: base
+SourceDateEpoch: 1714426257
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: powerpc_8540
+Installed-Size: 22500
+Filename: procd-seccomp_2022-06-01-7a009685-3_powerpc_8540.ipk
+Size: 22234
+SHA256sum: 245878d45a239803543e1affe0a565dbc19d814a512c12f65523cca789d19b6b
+Description:  OpenWrt process seccomp helper + utrace
+
+Package: procd-ujail
+Version: 2022-06-01-7a009685-3
+Depends: libc, libubox20220515, libubus20220601, libuci20130104, libblobmsg-json20220515
+Source: package/system/procd
+SourceName: procd-ujail
+License: GPL-2.0
+Section: base
+SourceDateEpoch: 1714426257
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: powerpc_8540
+Installed-Size: 46512
+Filename: procd-ujail_2022-06-01-7a009685-3_powerpc_8540.ipk
+Size: 45730
+SHA256sum: a999c8ee7ca7cdd06fcb397fc0f098be0d73e6c75bae31618ede745a0e9cd4a1
+Description:  OpenWrt process jail helper
+
+Package: procd
+Version: 2022-06-01-7a009685-3
+Depends: libc, ubusd, ubus, libjson-script20220515, ubox, libubox20220515, libubus20220601, libblobmsg-json20220515, libjson-c5, jshn
+Conflicts: procd-selinux
+Source: package/system/procd
+SourceName: procd
+License: GPL-2.0
+Section: base
+Require-User: :dialout=20 :audio=29
+SourceDateEpoch: 1714426257
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: powerpc_8540
+Installed-Size: 68305
+Filename: procd_2022-06-01-7a009685-3_powerpc_8540.ipk
+Size: 66853
+SHA256sum: 81274622c3ccc037e125e8a1173bedc7d0dcc4cd3279ff5a153e7a94f99629da
+Description:  OpenWrt system process manager
+
+Package: px5g-wolfssl
+Version: 6.2
+Depends: libc, libwolfssl5.7.2.ee39414e
+Provides: px5g
+Source: package/utils/px5g-wolfssl
+SourceName: px5g-wolfssl
+License: GPL-2.0-or-later
+Section: utils
+SourceDateEpoch: 1672605761
+Maintainer: Paul Spooren <mail@aparcar.org>
+Architecture: powerpc_8540
+Installed-Size: 5456
+Filename: px5g-wolfssl_6.2_powerpc_8540.ipk
+Size: 6134
+SHA256sum: ebb6356587d38fd39976a6e60d608cfcc9c92d65881f2c2e6c2a5881df785388
+Description:  Px5g is a tiny X.509 certificate generator.
+ It suitable to create key files and certificates in DER
+ and PEM format for use with stunnel, uhttpd and others.
+
+Package: r8152-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: r8152-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 10917
+Filename: r8152-firmware_20230804-1_powerpc_8540.ipk
+Size: 11660
+SHA256sum: f3746f5d5bc547d9a0cf77c87a02325da5b6d45cafcdfc1d7c6acd0f0d04371b
+Description:  RealTek RTL8152 firmware
+
+Package: r8169-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: r8169-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 23830
+Filename: r8169-firmware_20230804-1_powerpc_8540.ipk
+Size: 24521
+SHA256sum: 80f801ab11eacf18ac53fdfa156b066e0d466dac7aaac207dab63e2d9c6625b8
+Description:  RealTek RTL8169 firmware
+
+Package: rpcd-mod-file
+Version: 2022-12-15-7de4820c-1
+Depends: libc, libubus20220601, libubox20220515, rpcd
+Source: package/system/rpcd
+SourceName: rpcd-mod-file
+License: ISC
+Section: utils
+SourceDateEpoch: 1671460407
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: powerpc_8540
+Installed-Size: 8825
+Filename: rpcd-mod-file_2022-12-15-7de4820c-1_powerpc_8540.ipk
+Size: 9464
+SHA256sum: 3cb83fa27a06a6e1dfda59fefd128e7f6bee3d75cda37e021fb65153fe3ee45a
+Description:  Provides ubus calls for file and directory operations.
+
+Package: rpcd-mod-iwinfo
+Version: 2022-12-15-7de4820c-1
+Depends: libiwinfo (>= 2022-12-15), libc, libubus20220601, libubox20220515, rpcd, libiwinfo20210430
+Source: package/system/rpcd
+SourceName: rpcd-mod-iwinfo
+License: ISC
+Section: utils
+SourceDateEpoch: 1671460407
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: powerpc_8540
+Installed-Size: 8876
+Filename: rpcd-mod-iwinfo_2022-12-15-7de4820c-1_powerpc_8540.ipk
+Size: 9622
+SHA256sum: 30af2a967c06740fb1efb768ba4605c0f1cf7c023e9f785eca3b70c90ae018be
+Description:  Provides ubus calls for accessing iwinfo data.
+
+Package: rpcd
+Version: 2022-12-15-7de4820c-1
+Depends: libc, libubus20220601, libubox20220515, libuci20130104, libblobmsg-json20220515, libjson-c5
+Source: package/system/rpcd
+SourceName: rpcd
+License: ISC
+Section: utils
+SourceDateEpoch: 1671460407
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: powerpc_8540
+Installed-Size: 29331
+Filename: rpcd_2022-12-15-7de4820c-1_powerpc_8540.ipk
+Size: 29767
+SHA256sum: 6606888ee867faa376413aee09b34f6f9a3a3eba8da54ee4e061ef790339d554
+Description:  This package provides the UBUS RPC backend server to expose various
+ functionality to frontend programs via JSON-RPC.
+
+Package: rs9113-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: rs9113-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 84661
+Filename: rs9113-firmware_20230804-1_powerpc_8540.ipk
+Size: 85256
+SHA256sum: 1fad4884493bb201c3519a8d4dad346142e8804931b17eccd841a3e3dbdf770e
+Description:  RedPine Signals rs9113 firmware
+
+Package: rt2800-pci-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: rt2800-pci-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 3968
+Filename: rt2800-pci-firmware_20230804-1_powerpc_8540.ipk
+Size: 4707
+SHA256sum: 156193b5a98d28464021ef01510c4b6aa20ec4e72ec2a615b7ce2fc127c3ad0d
+Description:  Ralink RT28xx/3xxx PCI/SoC firmware
+
+Package: rt2800-usb-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: rt2800-usb-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 2938
+Filename: rt2800-usb-firmware_20230804-1_powerpc_8540.ipk
+Size: 3666
+SHA256sum: 666cdc00f57e57b6b73751f9587ab45e68b494e97368d4f73edc319b9af4fa57
+Description:  Ralink RT28xx/3xxx USB firmware
+
+Package: rt61-pci-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: rt61-pci-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 6502
+Filename: rt61-pci-firmware_20230804-1_powerpc_8540.ipk
+Size: 7239
+SHA256sum: 2f3efd75d51033d4abde405f7e2dd2f9ccc5c3dace1ffbafa9bf46ef3a597bbb
+Description:  Ralink RT2561 firmware
+
+Package: rt73-usb-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: rt73-usb-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 1319
+Filename: rt73-usb-firmware_20230804-1_powerpc_8540.ipk
+Size: 2066
+SHA256sum: d1b73ffddd28f1ebf1314d0d59a648a3774cfa7552927c134dd385d72c552bc7
+Description:  Ralink RT2573 firmware
+
+Package: rtl8192ce-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: rtl8192ce-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 20761
+Filename: rtl8192ce-firmware_20230804-1_powerpc_8540.ipk
+Size: 21487
+SHA256sum: 3a2495dad8ecff6df6e5f57f33086c30eda4095677b04a4c7b532fc7c55506b0
+Description:  RealTek RTL8192CE firmware
+
+Package: rtl8192cu-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: rtl8192cu-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 18712
+Filename: rtl8192cu-firmware_20230804-1_powerpc_8540.ipk
+Size: 19482
+SHA256sum: 67a945cb2f98efa872fb4ac1b4b0045834b67bcd6e45d38915ff7ab28e281a60
+Description:  RealTek RTL8192CU firmware
+
+Package: rtl8192de-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: rtl8192de-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 13531
+Filename: rtl8192de-firmware_20230804-1_powerpc_8540.ipk
+Size: 14269
+SHA256sum: d69f705ce9bd758f852bfa4fb38e02a4ee7267aca9ff6428c032b2023d5fec46
+Description:  RealTek RTL8192DE firmware
+
+Package: rtl8192se-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: rtl8192se-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 36780
+Filename: rtl8192se-firmware_20230804-1_powerpc_8540.ipk
+Size: 37495
+SHA256sum: ef56fc14b9ef849e5773a5a8f31a440bc0062978484358fae381362d2d292067
+Description:  RealTek RTL8192SE firmware
+
+Package: rtl8821ae-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: rtl8821ae-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 23997
+Filename: rtl8821ae-firmware_20230804-1_powerpc_8540.ipk
+Size: 24701
+SHA256sum: f1beab0f3b5d2c85d17cfea837efe4821690807276fb1fac17fa4c9a3e88956c
+Description:  RealTek RTL8821AE firmware
+
+Package: swconfig
+Version: 12
+Depends: libc, libuci20130104, libnl-tiny1
+Source: package/network/config/swconfig
+SourceName: swconfig
+License: GPL-2.0
+Section: base
+SourceDateEpoch: 1573253873
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 9944
+Filename: swconfig_12_powerpc_8540.ipk
+Size: 10596
+SHA256sum: 804f96ae9f31be8243e348e1143102c54265e833e80d1792b9673cf6802d04b6
+Description:  Switch configuration utility
+
+Package: sysfsutils
+Version: 2.1.0-3
+Depends: libc, libsysfs2
+Source: package/libs/sysfsutils
+SourceName: sysfsutils
+License: LGPL-2.1
+LicenseFiles: COPYING cmd/GPL lib/LGPL
+Section: utils
+SourceDateEpoch: 1695846789
+CPE-ID: cpe:/a:sysfsutils_project:sysfsutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: powerpc_8540
+Installed-Size: 9280
+Filename: sysfsutils_2.1.0-3_powerpc_8540.ipk
+Size: 10046
+SHA256sum: 41e9e61e1f3677b8f28547478789a8850f21423af2f415733779762c207365ef
+Description:  A utility built upon libsysfs that lists devices by bus, class, and topology.
+
+Package: tc-full
+Version: 5.15.0-4
+Depends: libc, kmod-sched-core, libbpf20220308, libxtables12, tc-mod-iptables
+Provides: tc
+Alternatives: 400:/sbin/tc:/usr/libexec/tc-full
+Source: package/network/utils/iproute2
+SourceName: tc-full
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1680467149
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: powerpc_8540
+Installed-Size: 191874
+Filename: tc-full_5.15.0-4_powerpc_8540.ipk
+Size: 191798
+SHA256sum: d2be22e21b6ff4ad195b0636d79ee547d8e538c89f9cb83fae7c8bd8656a7ef7
+Description:  Traffic control utility (full)
+
+Package: tc-mod-iptables
+Version: 5.15.0-4
+Depends: libc, libxtables12, libbpf20220308
+Source: package/network/utils/iproute2
+SourceName: tc-mod-iptables
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1680467149
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: powerpc_8540
+Installed-Size: 4323
+Filename: tc-mod-iptables_5.15.0-4_powerpc_8540.ipk
+Size: 4973
+SHA256sum: 9758a61d3683bc094188720f730422f95da0f539d78e060c134f2d424a21eb73
+Description:  Traffic control module - iptables action
+
+Package: terminfo
+Version: 6.3-2
+Depends: libc
+Source: package/libs/ncurses
+SourceName: terminfo
+License: MIT
+LicenseFiles: README
+Section: libs
+SourceDateEpoch: 1666527663
+CPE-ID: cpe:/a:gnu:ncurses
+Architecture: powerpc_8540
+Installed-Size: 7286
+Filename: terminfo_6.3-2_powerpc_8540.ipk
+Size: 8020
+SHA256sum: e7a5e581e89434ab8f06e7aaacc47bea91ef719cf3e4c4a328af7959e39d7fbd
+Description:  Terminal Info Database (ncurses)
+
+Package: ubox
+Version: 2021-08-03-205defb5-2
+Depends: libc, libubox20220515, ubusd, ubus, libubus20220601, libuci20130104
+Alternatives: 100:/sbin/rmmod:/sbin/kmodloader, 100:/sbin/insmod:/sbin/kmodloader, 100:/sbin/lsmod:/sbin/kmodloader, 100:/sbin/modinfo:/sbin/kmodloader, 100:/sbin/modprobe:/sbin/kmodloader
+Source: package/system/ubox
+SourceName: ubox
+License: GPL-2.0
+Section: base
+SourceDateEpoch: 1643641405
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: powerpc_8540
+Installed-Size: 20530
+Filename: ubox_2021-08-03-205defb5-2_powerpc_8540.ipk
+Size: 20923
+SHA256sum: 8eeaf86ea888a230dd3ae8cef14b367092d0e4ebea52a810232245c9403f3234
+Description:  OpenWrt system helper toolbox
+
+Package: ubus
+Version: 2022-06-01-2bebf93c-1
+Depends: libc, libubus20220601, libblobmsg-json20220515, ubusd
+Source: package/system/ubus
+SourceName: ubus
+License: LGPL-2.1
+Section: base
+SourceDateEpoch: 1654425492
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 7485
+Filename: ubus_2022-06-01-2bebf93c-1_powerpc_8540.ipk
+Size: 8178
+SHA256sum: fb3db671e5f0b82c68a90f4726b100125f1a833f54e14ff27e2ae29b3ba04211
+Description:  OpenWrt RPC client utility
+
+Package: ubusd
+Version: 2022-06-01-2bebf93c-1
+Depends: libc, libubox20220515, libblobmsg-json20220515
+Source: package/system/ubus
+SourceName: ubusd
+License: LGPL-2.1
+Section: base
+Require-User: ubus=81:ubus=81
+SourceDateEpoch: 1654425492
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 14667
+Filename: ubusd_2022-06-01-2bebf93c-1_powerpc_8540.ipk
+Size: 15230
+SHA256sum: ccc0877e6680a0dec5bec5a40a52c41928a005e51e2d80698315b18f3c98dc46
+Description:  OpenWrt RPC daemon
+
+Package: uci
+Version: 2021-10-22-f84f49f0-6
+Depends: libc, libuci20130104
+Source: package/system/uci
+SourceName: uci
+License: LGPL-2.1
+Section: base
+SourceDateEpoch: 1634939511
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 8020
+Filename: uci_2021-10-22-f84f49f0-6_powerpc_8540.ipk
+Size: 8726
+SHA256sum: 50f98f244d2ae665f9b9c82c29124b1968a1fa77c558dcee1beeaecdfe44f270
+Description:  Utility for the Unified Configuration Interface (UCI)
+
+Package: uclient-fetch
+Version: 2023-04-13-007d9454-1
+Depends: libc, libuclient20201210
+Provides: wget
+Alternatives: 200:/usr/bin/wget:/bin/uclient-fetch
+Source: package/libs/uclient
+SourceName: uclient-fetch
+License: ISC
+Section: net
+SourceDateEpoch: 1681412046
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 8587
+Filename: uclient-fetch_2023-04-13-007d9454-1_powerpc_8540.ipk
+Size: 9289
+SHA256sum: e40ebbd3ebc5ee73ecd1fe4d4a4b8e3f8c01b809ccbd04132e0082eba35f9480
+Description:  Tiny wget replacement using libuclient
+
+Package: ucode-mod-fs
+Version: 2022-12-02-46d93c9c-1
+Depends: libc, ucode
+Source: package/utils/ucode
+SourceName: ucode-mod-fs
+License: ISC
+Section: utils
+SourceDateEpoch: 1720470431
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: powerpc_8540
+Installed-Size: 11257
+Filename: ucode-mod-fs_2022-12-02-46d93c9c-1_powerpc_8540.ipk
+Size: 11690
+SHA256sum: b5fb7a726a50d5db7487503d98569579e00d6383a5033d2e458f12fc0fd9e9b3
+Description:  The filesystem plugin module allows interaction with the local file system.
+
+Package: ucode-mod-ubus
+Version: 2022-12-02-46d93c9c-1
+Depends: libc, ucode, libubus20220601, libblobmsg-json20220515
+Source: package/utils/ucode
+SourceName: ucode-mod-ubus
+License: ISC
+Section: utils
+SourceDateEpoch: 1720470431
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: powerpc_8540
+Installed-Size: 16114
+Filename: ucode-mod-ubus_2022-12-02-46d93c9c-1_powerpc_8540.ipk
+Size: 16490
+SHA256sum: 5d2ab16c69200afaabb447c06aa9851a70c61b9d15fbda61b274a8b8186aa70c
+Description:  The ubus module allows ucode template scripts to enumerate and invoke ubus
+ procedures.
+
+Package: ucode-mod-uci
+Version: 2022-12-02-46d93c9c-1
+Depends: libc, ucode, libuci20130104
+Source: package/utils/ucode
+SourceName: ucode-mod-uci
+License: ISC
+Section: utils
+SourceDateEpoch: 1720470431
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: powerpc_8540
+Installed-Size: 8390
+Filename: ucode-mod-uci_2022-12-02-46d93c9c-1_powerpc_8540.ipk
+Size: 9082
+SHA256sum: 3d4ab10d9ff98cfdee78b13f1a357c8180c9d9cbeb06ac4c11dea5ba031799ba
+Description:  The uci module allows templates to read and modify uci configuration.
+
+Package: ucode
+Version: 2022-12-02-46d93c9c-1
+Depends: libc, libucode20220812
+Source: package/utils/ucode
+SourceName: ucode
+License: ISC
+Section: utils
+SourceDateEpoch: 1720470431
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: powerpc_8540
+Installed-Size: 7210
+Filename: ucode_2022-12-02-46d93c9c-1_powerpc_8540.ipk
+Size: 7955
+SHA256sum: 2992ee958eab922a94e398279d5e270c6502012ca021c5e9a349b59138363d4c
+Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
+ script language and Jinja-inspired templating.
+
+Package: uhttpd-mod-ubus
+Version: 2023-06-25-34a8a74d-1
+Depends: libc, uhttpd, libubus20220601, libblobmsg-json20220515
+Source: package/network/services/uhttpd
+SourceName: uhttpd-mod-ubus
+License: ISC
+Section: net
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 9487
+Filename: uhttpd-mod-ubus_2023-06-25-34a8a74d-1_powerpc_8540.ipk
+Size: 10157
+SHA256sum: 11858b200254b11f12bb17594878a101793a2f1e84eba4488b867f68819f7e8a
+Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
+ session.* namespace and procedures.
+
+Package: uhttpd
+Version: 2023-06-25-34a8a74d-1
+Depends: libc, libubox20220515, libblobmsg-json20220515, libjson-script20220515, libjson-c5
+Source: package/network/services/uhttpd
+SourceName: uhttpd
+License: ISC
+Section: net
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 33331
+Filename: uhttpd_2023-06-25-34a8a74d-1_powerpc_8540.ipk
+Size: 33885
+SHA256sum: 794cab7003052794953dfeb02c6774ad914a40da52a3d296b2bd88b971fb35d0
+Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
+ support. It is intended as a drop-in replacement for the Busybox
+ HTTP daemon.
+
+Package: urandom-seed
+Version: 3
+Depends: libc, getrandom
+Source: package/system/urandom-seed
+SourceName: urandom-seed
+License: GPL-2.0-only
+Section: base
+SourceDateEpoch: 1611926981
+Architecture: powerpc_8540
+Installed-Size: 836
+Filename: urandom-seed_3_powerpc_8540.ipk
+Size: 1575
+SHA256sum: 3cce6a6783617813d8e7e3c4eebfcc2c625ca7b949d9bdfc8a9ab5c993f18a7d
+Description:  /etc/urandom.seed handling for OpenWrt
+
+Package: urngd
+Version: 2023-11-01-44365eb1-1
+Depends: libc, libubox20220515
+Source: package/system/urngd
+SourceName: urngd
+License: GPL-2.0 BSD-3-Clause
+Section: utils
+SourceDateEpoch: 1700402324
+Architecture: powerpc_8540
+Installed-Size: 11195
+Filename: urngd_2023-11-01-44365eb1-1_powerpc_8540.ipk
+Size: 12080
+SHA256sum: 1cde6b1ac69bed2d210e1742d4393a50b7e7b74701b6896b5bf5d85b764740a9
+Description:  urngd is OpenWrt's micro non-physical true random number generator based on
+ timing jitter.
+ 
+ Using the Jitter RNG core, the rngd provides an entropy source that feeds into
+ the Linux /dev/random device if its entropy runs low. It updates the
+ /dev/random entropy estimator such that the newly provided entropy unblocks
+ /dev/random.
+ 
+ The seeding of /dev/random also ensures that /dev/urandom benefits from
+ entropy. Especially during boot time, when the entropy of Linux is low, the
+ Jitter RNGd provides a source of sufficient entropy.
+
+Package: usign
+Version: 2020-05-23-f1f65026-1
+Depends: libc, libubox20220515
+Source: package/system/usign
+SourceName: usign
+License: ISC
+Section: base
+SourceDateEpoch: 1590233892
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 15410
+Filename: usign_2020-05-23-f1f65026-1_powerpc_8540.ipk
+Size: 15960
+SHA256sum: 24469f58758fe995d0c2994c86d671ef4adc8ee49724ef97e5bd76ee00da399d
+Description:  OpenWrt signature verification utility
+
+Package: vxlan
+Version: 7
+Depends: libc, kmod-vxlan
+Source: package/network/config/vxlan
+SourceName: vxlan
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1609412001
+Maintainer: Matthias Schiffer <mschiffer@universe-factory.net>
+Architecture: all
+Installed-Size: 1459
+Filename: vxlan_7_all.ipk
+Size: 2251
+SHA256sum: b32502080e5b93b9273c07f48fcec06417a188e43867442cf8c4906e4ceeef40
+Description:  Virtual eXtensible LAN config support in /etc/config/network.
+
+Package: wil6210-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: wil6210-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 254950
+Filename: wil6210-firmware_20230804-1_powerpc_8540.ipk
+Size: 255773
+SHA256sum: 89959c80d0e2a5f27b59e31e7ede8922578179059e9a5a58a6efba8b1d0fc265
+Description:  wil6210 firmware
+
+Package: wireless-regdb
+Version: 2024.07.04-1
+Depends: libc
+Source: package/firmware/wireless-regdb
+SourceName: wireless-regdb
+Section: firmware
+SourceDateEpoch: 1720650279
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: all
+Installed-Size: 2450
+Filename: wireless-regdb_2024.07.04-1_all.ipk
+Size: 3202
+SHA256sum: 8277573871022ef5bb740fa9d8d14e3a82560143db67c11d63a97b8c8f605c25
+Description:  Wireless Regulatory Database
+
+Package: wl12xx-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: wl12xx-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 1175102
+Filename: wl12xx-firmware_20230804-1_powerpc_8540.ipk
+Size: 1175120
+SHA256sum: 416fd754eb95b982121062557d3fab05413ddf3c9b62a516c44040220f249091
+Description:  TI WL12xx firmware
+
+Package: wl18xx-firmware
+Version: 20230804-1
+Depends: libc
+Source: package/firmware/linux-firmware
+SourceName: wl18xx-firmware
+Section: firmware
+SourceDateEpoch: 1691833611
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 343336
+Filename: wl18xx-firmware_20230804-1_powerpc_8540.ipk
+Size: 343949
+SHA256sum: 222f6d9d3fdf6f6802cd561eeec71983a68b3fd3ed708fc62ac45a6c8cbaee1d
+Description:  TI WL18xx firmware
+
+Package: wpad-basic-wolfssl
+Version: 2022-01-16-cff80b4f-21.3
+Depends: hostapd-common (=2022-01-16-cff80b4f-21.3), libc, libnl-tiny1, hostapd-common, libubus20220601, libwolfssl5.7.2.ee39414e
+Conflicts: hostapd, hostapd-basic, hostapd-basic-openssl, hostapd-basic-wolfssl, hostapd-mini, hostapd-openssl, hostapd-wolfssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-basic, wpad-basic-openssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-basic, wpad-basic-openssl
+Provides: hostapd, wpa-supplicant
+Source: package/network/services/hostapd
+SourceName: wpad-basic-wolfssl
+License: BSD-3-Clause
+Section: net
+Require-User: network=101:network=101
+SourceDateEpoch: 1720470431
+CPE-ID: cpe:/a:w1.fi:hostapd
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: powerpc_8540
+Installed-Size: 497288
+Filename: wpad-basic-wolfssl_2022-01-16-cff80b4f-21.3_powerpc_8540.ipk
+Size: 494052
+SHA256sum: 1d0c333b3ede46c15bda6a7c96ca0ed47e1b4e15189fe61cebcd17f4cd54c3b9
+Description:  This package contains a basic IEEE 802.1x/WPA Authenticator and Supplicant with WPA-PSK, SAE (WPA3-Personal), 802.11r and 802.11w support.
+
+Package: wwan
+Version: 2019-04-29-5
+Depends: libc
+Source: package/network/utils/wwan
+SourceName: wwan
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1589389283
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: powerpc_8540
+Installed-Size: 10003
+Filename: wwan_2019-04-29-5_powerpc_8540.ipk
+Size: 9840
+SHA256sum: ef45bf62fce66ef4096ff4fbe3d742d24458d84f080f6b4b06ab1e2a8a830407
+Description:  Generic OpenWrt 3G/4G proto handler
+
+Package: zlib
+Version: 1.2.11-6
+Depends: libc
+Source: package/libs/zlib
+SourceName: zlib
+License: Zlib
+LicenseFiles: README
+Section: libs
+SourceDateEpoch: 1660025566
+CPE-ID: cpe:/a:gnu:zlib
+Architecture: powerpc_8540
+Installed-Size: 45779
+Filename: zlib_1.2.11-6_powerpc_8540.ipk
+Size: 46276
+SHA256sum: ee58f7f2b5e59bb6042630b1f6279473c03d89f6605faa7128fa12103350c67b
+Description:  zlib is a lossless data-compression library.
+ This package includes the shared library.
+

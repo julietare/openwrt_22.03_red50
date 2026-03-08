@@ -1,0 +1,18 @@
+Package: batctl-default
+Version: 2022.0-4
+Depends: libc, libnl-tiny1, librt
+Provides: batctl
+Alternatives: 200:/usr/sbin/batctl:/usr/libexec/batctl-default
+License: GPL-2.0-only ISC MIT
+Section: net
+Architecture: powerpc_8540
+Installed-Size: 48932
+Filename: batctl-default_2022.0-4_powerpc_8540.ipk
+Size: 49662
+SHA256sum: f119783bd83e92a9d4c868bca3790561def48ee676cfa1e7c412eb849d41e21e
+Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
+ It is an easier method for configuring batman-adv and provides some
+ additional tools for debugging as well. This package builds
+ version 2022.0 of the user space utility.
+ Standard subcommands for configuration and online debugging are enabled.
+
